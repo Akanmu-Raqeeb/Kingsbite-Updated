@@ -42,13 +42,13 @@ p{text-align: left;
 }
 section{
     position: absolute;
-    bottom: -890px;
+    bottom: -1090px;
     height: 150px;
     display: flex;
     text-align: center;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    max-width: 5110px;
     background-color: grey;
     flex-wrap: wrap;
 }
@@ -89,4 +89,21 @@ a{
         max-height: 400px;
         margin: 10px;
     }
+    }
+    @media screen and (max-width: 351px) {
+
+
+        section{
+            position: absolute;
+            bottom: -1290px;
+            height: 150px;
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            background-color: grey;
+            flex-wrap: wrap;
+        }
+
     }
